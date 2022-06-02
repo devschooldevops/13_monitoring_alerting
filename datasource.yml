@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    isDefault: true
+    # Same story as for the Prometheus config file. Here, we are telling Grafana how to connect to our Prometheus server. We're also making use of the bridge network and the port mapping we've done on the local machine.
+    url: http://172.17.0.1:9091/

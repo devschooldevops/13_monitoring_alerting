@@ -1,0 +1,17 @@
+version: '3'
+services:
+  prometheus:
+    image: prom/prometheus:v2.26.0
+    volumes:
+    # This is the configuration file that tells Prometheus server about its jobs (target, path from which to scrape metrics, scraping config like timeout, etc.)
+    - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    # By default, Prometheus server listens on port 9000, for the sake of the demo, we'll access it on port 9001 from the local machine
+    ports:
+      - "9091:9090"
+  grafana:
+    image: grafana/grafana:7.5.2
+    volumes:
+      - ./datasource.yml:/etc/grafana/provisioning/datasources/datasource.yaml
+    ports:
+      # By default, Grafana listens on port 3000, for the sake of the demo, we'll access it on port 3001 from the local machine
+      - "3001:3000"

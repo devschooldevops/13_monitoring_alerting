@@ -1,0 +1,8 @@
+scrape_configs:
+  - job_name: view_buy
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+        # Bridge address for the container to access the 172.17.0.0/24 network linked to the local host
+        # We know that our application runs on port 5000, but this happens inside the container app; when we created the container app, we mapped port 5000 from the container to port 8050 from the local machine. We have access from a container to another using the bridge network and the port mapping on the local machine.
+        - 172.17.0.1:8050
