@@ -2,7 +2,7 @@
 
 ## General information
 
-**Duration**: 3 hours (1h theory, 2h practic)
+**Duration**: 1.5 hours
 
 **Primary teacher**: 
 
