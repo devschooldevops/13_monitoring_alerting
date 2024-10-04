@@ -4,7 +4,7 @@ All commands were tested on a Ubuntu 24.04 LTS. If you choose to use another dis
 I got mine from https://www.digitalocean.com but you can use other providers as long as they don’t have extra firewall configuration that may interfere with this demo.
 
 3. You will need to have root access
-4. To be able to do the DNS configuration part, you also need to have a domain purchased in advance.
+4. To be able to do the DNS configuration part, you also need to have a domain purchased in advance (In the demo I am using a domain purchased on https://www.godaddy.com/ but there are also other providers available to pick from).
 
 If you opt in to use DigitalOcean option: 
 - you may want to request the account a few days prior to this course, as it needs a manual validation in activation the account.
