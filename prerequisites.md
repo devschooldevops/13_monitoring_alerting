@@ -9,14 +9,16 @@ I got mine from https://www.digitalocean.com but you can use other providers as 
 If you opt in to use DigitalOcean option: 
 - you may want to request the account a few days prior to this course, as it needs a manual validation in activation the account.
 
+**To create a VM:**
+
 1. Go to https://cloud.digitalocean.com/ and from top right, select "Create Droplets"
    ![image](https://github.com/user-attachments/assets/1de2210a-6285-409f-a103-5fdcf09e9257)
 2. Select a region - ideally a DC closest to your region
-3. Choose an image - in this demo we will be using Ubuntu 24.04 (LTS) x64
+3. Choose an image - in this demo we will be using **Ubuntu 24.04 (LTS) x64**
   ![image](https://github.com/user-attachments/assets/a606bb6a-b521-4387-ab5b-56e650d43f2e)
 
-4. Choose size of the VM: BASIC
-5. Choose CPU Options - Type regular:
+4. Choose size of the VM: **BASIC**
+5. Choose CPU Options - Type **regular**:
 ![image](https://github.com/user-attachments/assets/fd48f45a-13dd-46b8-8e08-aa24e392b3c0)
 
 6.  Pick a rate - I tested with following config, but cheapest option should also work fine. 
